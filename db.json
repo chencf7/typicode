@@ -26,10 +26,75 @@
   "profile": {
     "name": "typicode"
   },
+  "queryPlayer": [{
+    "id": "1",
+    "name": "詹姆斯",
+    "type": "basketball"
+  },{
+    "id": "2",
+    "name": "德约科维奇",
+    "type": "tennis"
+  },{
+    "id": "3",
+    "name": "罗纳尔多·路易斯·纳扎里奥·达·利马",
+    "type": "football"
+  },{
+    "id": "4",
+    "name": "梅西",
+    "type": "football"
+  },{
+    "id": "5",
+    "name": "c罗",
+    "type": "football"
+  },{
+    "id": "6",
+    "name": "罗杰·费德勒",
+    "type": "tennis"
+  },{
+    "id": "7",
+    "name": "克里斯保罗",
+    "type": "basketball"
+  },{
+    "id": "8",
+    "name": "尤塞恩·博尔特",
+    "type": "running"
+  },{
+    "id": "9",
+    "name": "刘易斯",
+    "type": "running"
+  },{
+    "id": "10",
+    "name": "迈克乔丹",
+    "type": "basketball"
+  },{
+    "id": "11",
+    "name": "刘翔",
+    "type": "running"
+  },{
+    "id": "12",
+    "name": "苏炳添",
+    "type": "running"
+  },{
+    "id": "13",
+    "name": "杜兰特",
+    "type": "basketball"
+  },{
+    "id": "14",
+    "name": "库里",
+    "type": "basketball"
+  },{
+    "id": "15",
+    "name": "韦斯特布鲁克",
+    "type": "basketball"
+  },{
+    "id": "16",
+    "name": "哈登",
+    "type": "basketball"
+  }],
   "referTree": [{
     "id": "root",
     "code": "root",
-    "name": "测试根节点产品模块",
+    "name": "测试根节点",
     "isLeaf": false,
     "children": [{
         "id": "2c94881d6781484e0167ca70851e0098",
@@ -66,25 +131,23 @@
         "children": [{
           "id": "2c9487f56cb74afc016da9b9926100a0",
           "code": "TEST-TYPICODE-MACH",
-          "name": "设备管理",
+          "name": "设备一级子节点",
           "isLeaf": true,
           "children": null,
           "extdata": "module",
           "selectable": true
-        }],
-        "extdata": "product",
-        "selectable": true
-      },
-      {
-        "id": "2c9487b46daa6721016daa8dae180003",
-        "code": "MATER",
-        "name": "物资管理",
-        "isLeaf": true,
-        "children": [{
-          "id": "2c9487b46daa6721016daa8e7ea00004",
-          "code": "TEST-TYPICODE-MATER",
+        },{
+          "id": "2c9487b46daa6721016daa8dae180003",
+          "code": "MATER",
           "name": "物资管理",
           "isLeaf": true,
+          "extdata": "product",
+          "selectable": true
+        },{
+          "id": "2c9487b46daa6721016daa8e7ea00004",
+          "code": "TEST-TYPICODE-MATER",
+          "name": "物资节点",
+          "isLeaf": true,
           "children": null,
           "extdata": "module",
           "selectable": true
@@ -92,6 +155,7 @@
         "extdata": "product",
         "selectable": true
       },
+
       {
         "id": "8aaafe3b65132ed3016530dba13433c7",
         "code": "mytest-yy",
