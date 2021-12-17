@@ -1,14 +1,180 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "posts": [{
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "comments": [{
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "referTree": [{
+    "id": "root",
+    "code": "root",
+    "name": "测试根节点产品模块",
+    "isLeaf": false,
+    "children": [{
+        "id": "2c94881d6781484e0167ca70851e0098",
+        "code": "STEEL",
+        "name": "练习产品",
+        "isLeaf": true,
+        "children": [{
+            "id": "2c94881d6781484e0167ca7399c10099",
+            "code": "201812练习",
+            "name": "201812练习",
+            "isLeaf": true,
+            "children": null,
+            "extdata": "module",
+            "selectable": true
+          },
+          {
+            "id": "2c948dda684b89f801687eaaf5d00038",
+            "code": "test",
+            "name": "撒SKSKSKKD",
+            "isLeaf": true,
+            "children": null,
+            "extdata": "module",
+            "selectable": true
+          }
+        ],
+        "extdata": "product",
+        "selectable": true
+      },
+      {
+        "id": "2c9487f56cb74afc016da9b87b2f009f",
+        "code": "MACH",
+        "name": "设备管理",
+        "isLeaf": true,
+        "children": [{
+          "id": "2c9487f56cb74afc016da9b9926100a0",
+          "code": "TEST-TYPICODE-MACH",
+          "name": "设备管理",
+          "isLeaf": true,
+          "children": null,
+          "extdata": "module",
+          "selectable": true
+        }],
+        "extdata": "product",
+        "selectable": true
+      },
+      {
+        "id": "2c9487b46daa6721016daa8dae180003",
+        "code": "MATER",
+        "name": "物资管理",
+        "isLeaf": true,
+        "children": [{
+          "id": "2c9487b46daa6721016daa8e7ea00004",
+          "code": "TEST-TYPICODE-MATER",
+          "name": "物资管理",
+          "isLeaf": true,
+          "children": null,
+          "extdata": "module",
+          "selectable": true
+        }],
+        "extdata": "product",
+        "selectable": true
+      },
+      {
+        "id": "8aaafe3b65132ed3016530dba13433c7",
+        "code": "mytest-yy",
+        "name": "mytest-yy",
+        "isLeaf": true,
+        "children": [{
+            "id": "8aaaf9c565a789e60165a79e760a0001",
+            "code": "learnApp001",
+            "name": "learnApp001",
+            "isLeaf": true,
+            "children": null,
+            "extdata": "module",
+            "selectable": true
+          },
+          {
+            "id": "8aaafe3b65132ed3016530ddb3ba33c9",
+            "code": "1101992-list",
+            "name": "列表设计器",
+            "isLeaf": true,
+            "children": null,
+            "extdata": "module",
+            "selectable": true
+          }
+        ],
+        "extdata": "product",
+        "selectable": true
+      },
+      {
+        "id": "8aaaf4d465fb39760166140bfa42016a",
+        "code": "probbs",
+        "name": "金银湖社区",
+        "isLeaf": true,
+        "children": [{
+            "id": "2c948dda684b89f801696a7fe65001e1",
+            "code": "newbbs",
+            "name": "问题反馈",
+            "isLeaf": true,
+            "children": null,
+            "extdata": "module",
+            "selectable": true
+          }
+        ],
+        "extdata": "product",
+        "selectable": true
+      },
+      {
+        "id": "2c948d8669e7c63a016b2573da44066b",
+        "code": "XB001",
+        "name": "未知项目培训",
+        "isLeaf": true,
+        "children": [{
+            "id": "2c948d8669e7c63a016b257600ae066c",
+            "code": "001",
+            "name": "预算单",
+            "isLeaf": true,
+            "children": null,
+            "extdata": "module",
+            "selectable": true
+          },
+          {
+            "id": "2c948d8669e7c63a016b257622360670",
+            "code": "002",
+            "name": "申请单",
+            "isLeaf": true,
+            "children": null,
+            "extdata": "module",
+            "selectable": true
+          },
+          {
+            "id": "2c948d8669e7c63a016b257658a00671",
+            "code": "003",
+            "name": "报销单",
+            "isLeaf": true,
+            "children": null,
+            "extdata": "module",
+            "selectable": true
+          }
+        ],
+        "extdata": "product",
+        "selectable": true
+      }
+    ],
+    "extdata": null,
+    "selectable": true
+  }]
 }
