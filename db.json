@@ -253,12 +253,6 @@
         "id": "2c948533671152d501673a0efa27007e",
         "refCode": "00032",
         "refName": "测试 staff_本上组织",
-        "groupId": {
-          "code": "ZZZX",
-          "name": "组织部门",
-          "id": "8a83898b569c3d7b01569d4e70a70002",
-          "parentId": null
-        },
         "dataurl": "/test/staff/gridRefNew",
         "treerelyurl": "/test/company/getParentsById"
       },{
