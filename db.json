@@ -30,63 +30,63 @@
     "id": "1",
     "name": "詹姆斯",
     "type": "basketball"
-  },{
+  }, {
     "id": "2",
     "name": "德约科维奇",
     "type": "tennis"
-  },{
+  }, {
     "id": "3",
     "name": "罗纳尔多·路易斯·纳扎里奥·达·利马",
     "type": "football"
-  },{
+  }, {
     "id": "4",
     "name": "梅西",
     "type": "football"
-  },{
+  }, {
     "id": "5",
     "name": "c罗",
     "type": "football"
-  },{
+  }, {
     "id": "6",
     "name": "罗杰·费德勒",
     "type": "tennis"
-  },{
+  }, {
     "id": "7",
     "name": "克里斯保罗",
     "type": "basketball"
-  },{
+  }, {
     "id": "8",
     "name": "尤塞恩·博尔特",
     "type": "running"
-  },{
+  }, {
     "id": "9",
     "name": "刘易斯",
     "type": "running"
-  },{
+  }, {
     "id": "10",
     "name": "迈克乔丹",
     "type": "basketball"
-  },{
+  }, {
     "id": "11",
     "name": "刘翔",
     "type": "running"
-  },{
+  }, {
     "id": "12",
     "name": "苏炳添",
     "type": "running"
-  },{
+  }, {
     "id": "13",
     "name": "杜兰特",
     "type": "basketball"
-  },{
+  }, {
     "id": "14",
     "name": "库里",
     "type": "basketball"
-  },{
+  }, {
     "id": "15",
     "name": "韦斯特布鲁克",
     "type": "basketball"
-  },{
+  }, {
     "id": "16",
     "name": "哈登",
     "type": "basketball"
@@ -136,14 +136,14 @@
           "children": null,
           "extdata": "module",
           "selectable": true
-        },{
+        }, {
           "id": "2c9487b46daa6721016daa8dae180003",
           "code": "MATER",
           "name": "物资管理",
           "isLeaf": true,
           "extdata": "product",
           "selectable": true
-        },{
+        }, {
           "id": "2c9487b46daa6721016daa8e7ea00004",
           "code": "TEST-TYPICODE-MATER",
           "name": "物资节点",
@@ -189,15 +189,14 @@
         "name": "金银湖社区",
         "isLeaf": true,
         "children": [{
-            "id": "2c948dda684b89f801696a7fe65001e1",
-            "code": "newbbs",
-            "name": "问题反馈",
-            "isLeaf": true,
-            "children": null,
-            "extdata": "module",
-            "selectable": true
-          }
-        ],
+          "id": "2c948dda684b89f801696a7fe65001e1",
+          "code": "newbbs",
+          "name": "问题反馈",
+          "isLeaf": true,
+          "children": null,
+          "extdata": "module",
+          "selectable": true
+        }],
         "extdata": "product",
         "selectable": true
       },
@@ -240,5 +239,172 @@
     ],
     "extdata": null,
     "selectable": true
-  }]
+  }],
+  "referGrid": {
+    "data": {
+      "pageNumber": 1,
+      "pageSize": 10,
+      "count": 49,
+      "solrMsg": null,
+      "content": [{
+        "id": "2c948532740b821d0174d3c8ca330097",
+        "refCode": "0x37",
+        "refName": "测试 staff123",
+        "groupId": {
+          "code": "ZZZX",
+          "name": "组织部门",
+          "id": "8a83898b569c3d7b01569d4e70a70002",
+          "parentId": null
+        },
+        "dataurl": "/test/staff/gridRefNew",
+        "treerelyurl": "/test/company/getCompanyAndDeptLazyload"
+      }, {
+        "id": "2c948533671152d501673a0efa27007e",
+        "refCode": "00032",
+        "refName": "测试 staff_本上组织",
+        "groupId": {
+          "code": "ZZZX",
+          "name": "组织部门",
+          "id": "8a83898b569c3d7b01569d4e70a70002",
+          "parentId": null
+        },
+        "dataurl": "/test/staff/gridRefNew",
+        "treerelyurl": "/test/company/getParentsById"
+      }, {
+        "id": "8a83898b56928792015692eae2e30001",
+        "refCode": "00031",
+        "refName": "测试 staff（只含直属）",
+        "groupId": {
+          "code": "ZZZX",
+          "name": "组织部门",
+          "id": "8a83898b569c3d7b01569d4e70a70002",
+          "parentId": null
+        },
+        "dataurl": "/test/staff/gridRef",
+        "treerelyurl": "/test/company/getCompanyLazyload"
+      }, {
+        "id": "8a83898b569c3d7b01569d64749c0005",
+        "refCode": "0003",
+        "refName": "测试 staff",
+        "groupId": {
+          "code": "ZZZX",
+          "name": "组织部门",
+          "id": "8a83898b569c3d7b01569d4e70a70002",
+          "parentId": null
+        },
+        "dataurl": "/test/staff/staffGridRef",
+        "treerelyurl": "/test/company/getCompanyLazyload"
+      }, {
+        "id": "8a83898b569c3d7b01569d6663aa0006",
+        "refCode": "0006",
+        "refName": "公司",
+        "groupId": {
+          "code": "ZZZX",
+          "name": "组织部门",
+          "id": "8a83898b569c3d7b01569d4e70a70002",
+          "parentId": null
+        },
+        "dataurl": "/test/company/getCompanyLazyload",
+        "treerelyurl": null
+      }, {
+        "id": "8a83898b569c3d7b01569d68ea660008",
+        "refCode": "0012",
+        "refName": "部门",
+        "groupId": {
+          "code": "ZZZX",
+          "name": "组织部门",
+          "id": "8a83898b569c3d7b01569d4e70a70002",
+          "parentId": null
+        },
+        "dataurl": "/test/dept/getDeptRef",
+        "treerelyurl": null
+      }, {
+        "id": "8a83898b569c3d7b01569d69ad6a0009",
+        "refCode": "0013",
+        "refName": "公司和部门",
+        "groupId": {
+          "code": "ZZZX",
+          "name": "组织部门",
+          "id": "8a83898b569c3d7b01569d4e70a70002",
+          "parentId": null
+        },
+        "dataurl": "/test/company/getCompanyAndDeptLazyload",
+        "treerelyurl": null
+      }, {
+        "id": "8a83898b569c3d7b01569d6a7429000a",
+        "refCode": "0014",
+        "refName": "测试 staff分类",
+        "groupId": {
+          "code": "ZZZX",
+          "name": "组织部门",
+          "id": "8a83898b569c3d7b01569d4e70a70002",
+          "parentId": null
+        },
+        "dataurl": "/test/staffType/getStaffType",
+        "treerelyurl": ""
+      }, {
+        "id": "8a83898b569c3d7b01569d6b5574000b",
+        "refCode": "0015",
+        "refName": "岗位",
+        "groupId": {
+          "code": "ZZZX",
+          "name": "组织部门",
+          "id": "8a83898b569c3d7b01569d4e70a70002",
+          "parentId": null
+        },
+        "dataurl": "/test/position/gridRef",
+        "treerelyurl": "/test/company/getCompanyAndDeptLazyload"
+      }, {
+        "id": "8a83898b569c3d7b01569d6bc44b000c",
+        "refCode": "0017",
+        "refName": "组织职能",
+        "groupId": {
+          "code": "ZZZX",
+          "name": "组织部门",
+          "id": "8a83898b569c3d7b01569d4e70a70002",
+          "parentId": null
+        },
+        "dataurl": "/test/companyFunc/refCompanyFuncTree",
+        "treerelyurl": null
+      }],
+      "pageCount": 5
+    },
+    "header": [{
+      "code": "id",
+      "name": "ID",
+      "width": null,
+      "backfiled": false,
+      "hidden": true
+    }, {
+      "code": "refCode",
+      "name": "编号",
+      "width": null,
+      "backfiled": false,
+      "hidden": false
+    }, {
+      "code": "refName",
+      "name": "名称",
+      "width": null,
+      "backfiled": false,
+      "hidden": false
+    }, {
+      "code": "groupId.name",
+      "name": "所属模块",
+      "width": null,
+      "backfiled": false,
+      "hidden": false
+    }, {
+      "code": "dataurl",
+      "name": "grid 数据地址",
+      "width": null,
+      "backfiled": false,
+      "hidden": true
+    }, {
+      "code": "treerelyurl",
+      "name": "tree 数据地址",
+      "width": null,
+      "backfiled": false,
+      "hidden": true
+    }]
+  }
 }
