@@ -298,43 +298,6 @@
         "dataurl": "/test/companyFunc/refCompanyFuncTree",
         "treerelyurl": null
       }]
-    },
-    "header": [{
-      "code": "id",
-      "name": "ID",
-      "width": null,
-      "backfiled": false,
-      "hidden": true
-    }, {
-      "code": "refCode",
-      "name": "编号",
-      "width": null,
-      "backfiled": false,
-      "hidden": false
-    }, {
-      "code": "refName",
-      "name": "名称",
-      "width": null,
-      "backfiled": false,
-      "hidden": false
-    }, {
-      "code": "groupId.name",
-      "name": "所属模块",
-      "width": null,
-      "backfiled": false,
-      "hidden": false
-    }, {
-      "code": "dataurl",
-      "name": "grid 数据地址",
-      "width": null,
-      "backfiled": false,
-      "hidden": true
-    }, {
-      "code": "treerelyurl",
-      "name": "tree 数据地址",
-      "width": null,
-      "backfiled": false,
-      "hidden": true
-    }]
+    }
   }
 }
