@@ -270,31 +270,7 @@
         },
         "dataurl": "/test/staff/gridRefNew",
         "treerelyurl": "/test/company/getParentsById"
-      }, {
-        "id": "8a83898b56928792015692eae2e30001",
-        "refCode": "00031",
-        "refName": "测试 staff（只含直属）",
-        "groupId": {
-          "code": "ZZZX",
-          "name": "组织部门",
-          "id": "8a83898b569c3d7b01569d4e70a70002",
-          "parentId": null
-        },
-        "dataurl": "/test/staff/gridRef",
-        "treerelyurl": "/test/company/getCompanyLazyload"
-      }, {
-        "id": "8a83898b569c3d7b01569d64749c0005",
-        "refCode": "0003",
-        "refName": "测试 staff",
-        "groupId": {
-          "code": "ZZZX",
-          "name": "组织部门",
-          "id": "8a83898b569c3d7b01569d4e70a70002",
-          "parentId": null
-        },
-        "dataurl": "/test/staff/staffGridRef",
-        "treerelyurl": "/test/company/getCompanyLazyload"
-      }, {
+      },{
         "id": "8a83898b569c3d7b01569d6663aa0006",
         "refCode": "0006",
         "refName": "公司",
