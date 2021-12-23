@@ -241,57 +241,54 @@
     "selectable": true
   }],
   "referGrid": {
-    "data": {
-      "count": 49,
-      "content": [{
-        "id": "2c948532740b821d0174d3c8ca330097",
-        "refCode": "0x37",
-        "refName": "测试 staff123",
-        "dataurl": "/test/staff/gridRefNew",
-        "treerelyurl": "/test/company/getCompanyAndDeptLazyload"
-      }, {
-        "id": "2c948533671152d501673a0efa27007e",
-        "refCode": "00032",
-        "refName": "测试 staff_本上组织",
-        "dataurl": "/test/staff/gridRefNew",
-        "treerelyurl": "/test/company/getParentsById"
-      },{
-        "id": "8a83898b569c3d7b01569d6663aa0006",
-        "refCode": "0006",
-        "refName": "公司",
-        "dataurl": "/test/company/getCompanyLazyload",
-        "treerelyurl": null
-      }, {
-        "id": "8a83898b569c3d7b01569d68ea660008",
-        "refCode": "0012",
-        "refName": "部门",
-        "dataurl": "/test/dept/getDeptRef",
-        "treerelyurl": null
-      }, {
-        "id": "8a83898b569c3d7b01569d69ad6a0009",
-        "refCode": "0013",
-        "refName": "公司和部门",
-        "dataurl": "/test/company/getCompanyAndDeptLazyload",
-        "treerelyurl": null
-      }, {
-        "id": "8a83898b569c3d7b01569d6a7429000a",
-        "refCode": "0014",
-        "refName": "测试 staff分类",
-        "dataurl": "/test/staffType/getStaffType",
-        "treerelyurl": ""
-      }, {
-        "id": "8a83898b569c3d7b01569d6b5574000b",
-        "refCode": "0015",
-        "refName": "岗位",
-        "dataurl": "/test/position/gridRef",
-        "treerelyurl": "/test/company/getCompanyAndDeptLazyload"
-      }, {
-        "id": "8a83898b569c3d7b01569d6bc44b000c",
-        "refCode": "0017",
-        "refName": "组织职能",
-        "dataurl": "/test/companyFunc/refCompanyFuncTree",
-        "treerelyurl": null
-      }]
-    }
+    "content": [{
+      "id": "2c948532740b821d0174d3c8ca330097",
+      "refCode": "0x37",
+      "refName": "测试 staff123",
+      "dataurl": "/test/staff/gridRefNew",
+      "treerelyurl": "/test/company/getCompanyAndDeptLazyload"
+    }, {
+      "id": "2c948533671152d501673a0efa27007e",
+      "refCode": "00032",
+      "refName": "测试 staff_本上组织",
+      "dataurl": "/test/staff/gridRefNew",
+      "treerelyurl": "/test/company/getParentsById"
+    },{
+      "id": "8a83898b569c3d7b01569d6663aa0006",
+      "refCode": "0006",
+      "refName": "公司",
+      "dataurl": "/test/company/getCompanyLazyload",
+      "treerelyurl": null
+    }, {
+      "id": "8a83898b569c3d7b01569d68ea660008",
+      "refCode": "0012",
+      "refName": "部门",
+      "dataurl": "/test/dept/getDeptRef",
+      "treerelyurl": null
+    }, {
+      "id": "8a83898b569c3d7b01569d69ad6a0009",
+      "refCode": "0013",
+      "refName": "公司和部门",
+      "dataurl": "/test/company/getCompanyAndDeptLazyload",
+      "treerelyurl": null
+    }, {
+      "id": "8a83898b569c3d7b01569d6a7429000a",
+      "refCode": "0014",
+      "refName": "测试 staff分类",
+      "dataurl": "/test/staffType/getStaffType",
+      "treerelyurl": ""
+    }, {
+      "id": "8a83898b569c3d7b01569d6b5574000b",
+      "refCode": "0015",
+      "refName": "岗位",
+      "dataurl": "/test/position/gridRef",
+      "treerelyurl": "/test/company/getCompanyAndDeptLazyload"
+    }, {
+      "id": "8a83898b569c3d7b01569d6bc44b000c",
+      "refCode": "0017",
+      "refName": "组织职能",
+      "dataurl": "/test/companyFunc/refCompanyFuncTree",
+      "treerelyurl": null
+    }]
   }
 }
