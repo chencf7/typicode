@@ -242,20 +242,11 @@
   }],
   "referGrid": {
     "data": {
-      "pageNumber": 1,
-      "pageSize": 10,
       "count": 49,
-      "solrMsg": null,
       "content": [{
         "id": "2c948532740b821d0174d3c8ca330097",
         "refCode": "0x37",
         "refName": "测试 staff123",
-        "groupId": {
-          "code": "ZZZX",
-          "name": "组织部门",
-          "id": "8a83898b569c3d7b01569d4e70a70002",
-          "parentId": null
-        },
         "dataurl": "/test/staff/gridRefNew",
         "treerelyurl": "/test/company/getCompanyAndDeptLazyload"
       }, {
@@ -274,76 +265,39 @@
         "id": "8a83898b569c3d7b01569d6663aa0006",
         "refCode": "0006",
         "refName": "公司",
-        "groupId": {
-          "code": "ZZZX",
-          "name": "组织部门",
-          "id": "8a83898b569c3d7b01569d4e70a70002",
-          "parentId": null
-        },
         "dataurl": "/test/company/getCompanyLazyload",
         "treerelyurl": null
       }, {
         "id": "8a83898b569c3d7b01569d68ea660008",
         "refCode": "0012",
         "refName": "部门",
-        "groupId": {
-          "code": "ZZZX",
-          "name": "组织部门",
-          "id": "8a83898b569c3d7b01569d4e70a70002",
-          "parentId": null
-        },
         "dataurl": "/test/dept/getDeptRef",
         "treerelyurl": null
       }, {
         "id": "8a83898b569c3d7b01569d69ad6a0009",
         "refCode": "0013",
         "refName": "公司和部门",
-        "groupId": {
-          "code": "ZZZX",
-          "name": "组织部门",
-          "id": "8a83898b569c3d7b01569d4e70a70002",
-          "parentId": null
-        },
         "dataurl": "/test/company/getCompanyAndDeptLazyload",
         "treerelyurl": null
       }, {
         "id": "8a83898b569c3d7b01569d6a7429000a",
         "refCode": "0014",
         "refName": "测试 staff分类",
-        "groupId": {
-          "code": "ZZZX",
-          "name": "组织部门",
-          "id": "8a83898b569c3d7b01569d4e70a70002",
-          "parentId": null
-        },
         "dataurl": "/test/staffType/getStaffType",
         "treerelyurl": ""
       }, {
         "id": "8a83898b569c3d7b01569d6b5574000b",
         "refCode": "0015",
         "refName": "岗位",
-        "groupId": {
-          "code": "ZZZX",
-          "name": "组织部门",
-          "id": "8a83898b569c3d7b01569d4e70a70002",
-          "parentId": null
-        },
         "dataurl": "/test/position/gridRef",
         "treerelyurl": "/test/company/getCompanyAndDeptLazyload"
       }, {
         "id": "8a83898b569c3d7b01569d6bc44b000c",
         "refCode": "0017",
         "refName": "组织职能",
-        "groupId": {
-          "code": "ZZZX",
-          "name": "组织部门",
-          "id": "8a83898b569c3d7b01569d4e70a70002",
-          "parentId": null
-        },
         "dataurl": "/test/companyFunc/refCompanyFuncTree",
         "treerelyurl": null
-      }],
-      "pageCount": 5
+      }]
     },
     "header": [{
       "code": "id",
