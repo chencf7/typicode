@@ -1,6 +1,6 @@
 {
   "profile": {
-    "name": "typicode"
+    "name": "最多支持 5个 api"
   },
   "queryPlayer": [{
     "id": "1",
@@ -217,6 +217,7 @@
     "selectable": true
   }],
   "referGrid": {
+    "total": 18,
     "content": [{
       "id": "2c948532740b821d0174d3c8ca330097",
       "refCode": "0x37",
