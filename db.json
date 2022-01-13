@@ -224,7 +224,7 @@
     "pageSize": "10",
     "pageNumber": "1",
     "total": 22,
-    "category": "root.code"
+    "category": "code"
   }, {
     "id": "2c948533671152d501673a0efa27007e",
     "refCode": "00032",
@@ -233,7 +233,7 @@
     "pageSize": "10",
     "pageNumber": "1",
     "total": 22,
-    "category": "root.code"
+    "category": "code"
   },{
     "id": "8a83898b569c3d7b01569d6663aa0006",
     "refCode": "0006",
@@ -242,7 +242,7 @@
     "pageSize": "10",
     "pageNumber": "1",
     "total": 22,
-    "category": "root.code"
+    "category": "code"
   }, {
     "id": "8a83898b569c3d7b01569d68ea660008",
     "refCode": "0012",
@@ -251,7 +251,7 @@
     "pageSize": "10",
     "pageNumber": "1",
     "total": 22,
-    "category": "root.code"
+    "category": "code"
   }, {
     "id": "8a83898b569c3d7b01569d69ad6a0009",
     "refCode": "0013",
@@ -260,7 +260,7 @@
     "pageSize": "10",
     "pageNumber": "1",
     "total": 22,
-    "category": "root.steel"
+    "category": "steel"
   }, {
     "id": "8a83898b569c3d7b01569d6a7429000a",
     "refCode": "0014",
@@ -269,7 +269,7 @@
     "pageSize": "10",
     "pageNumber": "1",
     "total": 22,
-    "category": "root.steel"
+    "category": "steel"
   }, {
     "id": "8a83898b569c3d7b01569d6b5574000b",
     "refCode": "0015",
