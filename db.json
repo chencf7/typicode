@@ -221,8 +221,8 @@
     "refCode": "0x37",
     "refName": "测试 staff123",
     "extdata": "/test/staff/gridRefNew",
-    "pageSize": "1",
-    "pageNumber": "10",
+    "pageSize": "10",
+    "pageNumber": "1",
     "total": 22,
     "category": "root.code"
   }, {
@@ -230,8 +230,8 @@
     "refCode": "00032",
     "refName": "测试 staff_本上组织",
     "extdata": "/test/staff/gridRefNew",
-    "pageSize": "1",
-    "pageNumber": "10",
+    "pageSize": "10",
+    "pageNumber": "1",
     "total": 22,
     "category": "root.code"
   },{
@@ -239,8 +239,8 @@
     "refCode": "0006",
     "refName": "公司",
     "extdata": "/test/company/getCompanyLazyload",
-    "pageSize": "1",
-    "pageNumber": "10",
+    "pageSize": "10",
+    "pageNumber": "1",
     "total": 22,
     "category": "root.code"
   }, {
@@ -248,8 +248,8 @@
     "refCode": "0012",
     "refName": "部门",
     "extdata": "/test/dept/getDeptRef",
-    "pageSize": "1",
-    "pageNumber": "10",
+    "pageSize": "10",
+    "pageNumber": "1",
     "total": 22,
     "category": "root.code"
   }, {
@@ -257,8 +257,8 @@
     "refCode": "0013",
     "refName": "公司和部门",
     "extdata": "/test/company/getCompanyAndDeptLazyload",
-    "pageSize": "1",
-    "pageNumber": "10",
+    "pageSize": "10",
+    "pageNumber": "1",
     "total": 22,
     "category": "root.steel"
   }, {
@@ -266,8 +266,8 @@
     "refCode": "0014",
     "refName": "测试 staff分类",
     "extdata": "/test/staffType/getStaffType",
-    "pageSize": "1",
-    "pageNumber": "10",
+    "pageSize": "10",
+    "pageNumber": "1",
     "total": 22,
     "category": "root.steel"
   }, {
@@ -275,8 +275,8 @@
     "refCode": "0015",
     "refName": "岗位",
     "extdata": "/test/position/gridRef",
-    "pageSize": "1",
-    "pageNumber": "10",
+    "pageSize": "10",
+    "pageNumber": "1",
     "total": 22,
     "category": "root"
   }, {
@@ -284,8 +284,8 @@
     "refCode": "0017",
     "refName": "组织职能",
     "extdata": "/test/companyFunc/refCompanyFuncTree",
-    "pageSize": "1",
-    "pageNumber": "10",
+    "pageSize": "10",
+    "pageNumber": "1",
     "total": 22,
     "category": "root"
   }, {
@@ -293,17 +293,17 @@
     "refCode": "2011",
     "refName": "测试第二页",
     "extdata": "",
-    "pageSize": "2",
-    "pageNumber": "10",
+    "pageSize": "10",
+    "pageNumber": "2",
     "total": 22,
     "category": "root"
   }, {
-    "id": "8a83898b569c3d7c",
-    "refCode": "2011",
-    "refName": "测试第二页",
-    "extdata": "",
-    "pageSize": "2",
-    "pageNumber": "10",
+    "id": "8a34898b569c3d7c",
+    "refCode": "2017",
+    "refName": "测试111123344",
+    "extdata": "测试111123344",
+    "pageSize": "10",
+    "pageNumber": "2",
     "total": 22,
     "category": "root"
   }]
