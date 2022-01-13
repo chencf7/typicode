@@ -223,7 +223,8 @@
     "extdata": "/test/staff/gridRefNew",
     "pageSize": "1",
     "pageNumber": "10",
-    "total": 22
+    "total": 22,
+    "category": "root.code"
   }, {
     "id": "2c948533671152d501673a0efa27007e",
     "refCode": "00032",
@@ -231,7 +232,8 @@
     "extdata": "/test/staff/gridRefNew",
     "pageSize": "1",
     "pageNumber": "10",
-    "total": 22
+    "total": 22,
+    "category": "root.code"
   },{
     "id": "8a83898b569c3d7b01569d6663aa0006",
     "refCode": "0006",
@@ -239,7 +241,8 @@
     "extdata": "/test/company/getCompanyLazyload",
     "pageSize": "1",
     "pageNumber": "10",
-    "total": 22
+    "total": 22,
+    "category": "root.code"
   }, {
     "id": "8a83898b569c3d7b01569d68ea660008",
     "refCode": "0012",
@@ -247,7 +250,8 @@
     "extdata": "/test/dept/getDeptRef",
     "pageSize": "1",
     "pageNumber": "10",
-    "total": 22
+    "total": 22,
+    "category": "root.code"
   }, {
     "id": "8a83898b569c3d7b01569d69ad6a0009",
     "refCode": "0013",
@@ -255,7 +259,8 @@
     "extdata": "/test/company/getCompanyAndDeptLazyload",
     "pageSize": "1",
     "pageNumber": "10",
-    "total": 22
+    "total": 22,
+    "category": "root.steel"
   }, {
     "id": "8a83898b569c3d7b01569d6a7429000a",
     "refCode": "0014",
@@ -263,7 +268,8 @@
     "extdata": "/test/staffType/getStaffType",
     "pageSize": "1",
     "pageNumber": "10",
-    "total": 22
+    "total": 22,
+    "category": "root.steel"
   }, {
     "id": "8a83898b569c3d7b01569d6b5574000b",
     "refCode": "0015",
@@ -271,7 +277,8 @@
     "extdata": "/test/position/gridRef",
     "pageSize": "1",
     "pageNumber": "10",
-    "total": 22
+    "total": 22,
+    "category": "root"
   }, {
     "id": "8a83898b569c3d7b01569d6bc44b000c",
     "refCode": "0017",
@@ -279,6 +286,25 @@
     "extdata": "/test/companyFunc/refCompanyFuncTree",
     "pageSize": "1",
     "pageNumber": "10",
-    "total": 22
+    "total": 22,
+    "category": "root"
+  }, {
+    "id": "8a83898b569c3d7c",
+    "refCode": "2011",
+    "refName": "测试第二页",
+    "extdata": "",
+    "pageSize": "2",
+    "pageNumber": "10",
+    "total": 22,
+    "category": "root"
+  }, {
+    "id": "8a83898b569c3d7c",
+    "refCode": "2011",
+    "refName": "测试第二页",
+    "extdata": "",
+    "pageSize": "2",
+    "pageNumber": "10",
+    "total": 22,
+    "category": "root"
   }]
 }
