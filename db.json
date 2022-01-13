@@ -216,48 +216,69 @@
     "extdata": null,
     "selectable": true
   }],
-  "referGrid": {
-    "total": 18,
-    "content": [{
-      "id": "2c948532740b821d0174d3c8ca330097",
-      "refCode": "0x37",
-      "refName": "测试 staff123",
-      "extdata": "/test/staff/gridRefNew"
-    }, {
-      "id": "2c948533671152d501673a0efa27007e",
-      "refCode": "00032",
-      "refName": "测试 staff_本上组织",
-      "extdata": "/test/staff/gridRefNew"
-    },{
-      "id": "8a83898b569c3d7b01569d6663aa0006",
-      "refCode": "0006",
-      "refName": "公司",
-      "extdata": "/test/company/getCompanyLazyload"
-    }, {
-      "id": "8a83898b569c3d7b01569d68ea660008",
-      "refCode": "0012",
-      "refName": "部门",
-      "extdata": "/test/dept/getDeptRef"
-    }, {
-      "id": "8a83898b569c3d7b01569d69ad6a0009",
-      "refCode": "0013",
-      "refName": "公司和部门",
-      "extdata": "/test/company/getCompanyAndDeptLazyload"
-    }, {
-      "id": "8a83898b569c3d7b01569d6a7429000a",
-      "refCode": "0014",
-      "refName": "测试 staff分类",
-      "extdata": "/test/staffType/getStaffType"
-    }, {
-      "id": "8a83898b569c3d7b01569d6b5574000b",
-      "refCode": "0015",
-      "refName": "岗位",
-      "extdata": "/test/position/gridRef"
-    }, {
-      "id": "8a83898b569c3d7b01569d6bc44b000c",
-      "refCode": "0017",
-      "refName": "组织职能",
-      "extdata": "/test/companyFunc/refCompanyFuncTree"
-    }]
-  }
+  "referGrid": [{
+    "id": "2c948532740b821d0174d3c8ca330097",
+    "refCode": "0x37",
+    "refName": "测试 staff123",
+    "extdata": "/test/staff/gridRefNew",
+    "pageSize": "1",
+    "pageNumber": "10",
+    "total": 22
+  }, {
+    "id": "2c948533671152d501673a0efa27007e",
+    "refCode": "00032",
+    "refName": "测试 staff_本上组织",
+    "extdata": "/test/staff/gridRefNew",
+    "pageSize": "1",
+    "pageNumber": "10",
+    "total": 22
+  },{
+    "id": "8a83898b569c3d7b01569d6663aa0006",
+    "refCode": "0006",
+    "refName": "公司",
+    "extdata": "/test/company/getCompanyLazyload",
+    "pageSize": "1",
+    "pageNumber": "10",
+    "total": 22
+  }, {
+    "id": "8a83898b569c3d7b01569d68ea660008",
+    "refCode": "0012",
+    "refName": "部门",
+    "extdata": "/test/dept/getDeptRef",
+    "pageSize": "1",
+    "pageNumber": "10",
+    "total": 22
+  }, {
+    "id": "8a83898b569c3d7b01569d69ad6a0009",
+    "refCode": "0013",
+    "refName": "公司和部门",
+    "extdata": "/test/company/getCompanyAndDeptLazyload",
+    "pageSize": "1",
+    "pageNumber": "10",
+    "total": 22
+  }, {
+    "id": "8a83898b569c3d7b01569d6a7429000a",
+    "refCode": "0014",
+    "refName": "测试 staff分类",
+    "extdata": "/test/staffType/getStaffType",
+    "pageSize": "1",
+    "pageNumber": "10",
+    "total": 22
+  }, {
+    "id": "8a83898b569c3d7b01569d6b5574000b",
+    "refCode": "0015",
+    "refName": "岗位",
+    "extdata": "/test/position/gridRef",
+    "pageSize": "1",
+    "pageNumber": "10",
+    "total": 22
+  }, {
+    "id": "8a83898b569c3d7b01569d6bc44b000c",
+    "refCode": "0017",
+    "refName": "组织职能",
+    "extdata": "/test/companyFunc/refCompanyFuncTree",
+    "pageSize": "1",
+    "pageNumber": "10",
+    "total": 22
+  }]
 }
